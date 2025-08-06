@@ -1,0 +1,10 @@
+click
+structlog
+pydantic
+aio-pika
+pytest
+pytest-asyncio
+aiohttp
+aiosmtplib
+twilio
+psycopg[binary]
