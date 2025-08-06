@@ -70,7 +70,7 @@ docker compose run --rm python cli.py init-db
 
 Должны увидеть сообщение `Message pubhished`. После этого проверяем логи командой:
 
-```json
+```shell
 docker compose logs app
 ```
 
