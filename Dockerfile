@@ -8,7 +8,7 @@ RUN apk update \
     python3-dev
 
 
-RUN pip install -r conf/requirements.txt
+RUN pip install -r conf/requirements.txt -c conf/constraints.txt
 
 CMD ["python", "consumer.py"]
 
