@@ -1,8 +1,8 @@
-click
-structlog
-pydantic
-aio-pika
-aiohttp
-aiosmtplib
-twilio
-psycopg[binary]
+click>=8.2.1
+structlog>=25.4.0
+pydantic>=2.11.7
+aio-pika>=9.5.7
+aiohttp>=3.12.15
+aiosmtplib>=4.0.1
+twilio>=9.7.0
+psycopg[binary]>=3.2.9
