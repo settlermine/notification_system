@@ -58,11 +58,17 @@ docker compose run --rm python cli.py init-db
 
 ```json
 {
-	"user_id": 1, # id пользователя в БД. Обязательный параметр
-	"content": "Hello!", # Текст сообщения. Обязательный параметр
-	"destination": "telegram", # Канал получения сообщения. Доступные варианты: telegram, sms, email. Необязательный параметр
+	"user_id": 1,
+	"content": "Hello!",
+	"destination": "telegram"
 }
 ```
+
+Параметры:
+
+- user_id - id пользователя в БД. Обязательный параметр
+- content - Текст сообщения. Обязательный параметр
+- destination - Канал получения сообщения. Доступные варианты: "telegram", "sms", "email". Необязательный параметр
 
 После этого, нажимаем `Publish message`:
 
